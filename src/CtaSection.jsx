@@ -1,14 +1,11 @@
-import LogoSvg from "./LogoSvg";
-
-function HeroSection() {
+function CtaSection() {
   return (
-    <section id="hero">
-      <div className="section-container mb-40 px-10 pt-16">
-        <LogoSvg />
-        <h3>A history of everything you copy</h3>
-        <p className="mx-auto mb-10 max-w-3xl text-2xl text-grayishBlue">
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
+    <section id="bottom">
+      <div className="section-container my-20 ">
+        <h3>Clipboard for iOS and MacOS</h3>
+        <p className="section-content mb-10">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you're ready to start adding to your clipboard.
         </p>
 
         {/* Button Container */}
@@ -32,4 +29,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default CtaSection;
